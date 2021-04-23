@@ -17,7 +17,7 @@ function temp(){
 
 client.messages.create({
     body: 'TRY THIS AR-"https://www.instagram.com/ar/296770051816751/?ch=OGMwMGE0MjMxNWQ0NjcxMTZiNWFkMWQ2ZGNhNjNmNTI%3D"',
-    to: '+917015373151',  // Text this number
+    to: '+91**********',  // Text this number
     from: '+19313132115' // From a valid Twilio number
 })
 .then((message) => console.log(message.sid)) 
