@@ -36,8 +36,8 @@ Trell is a one-stop destination for discovering daily lifestyle experiences. Ava
 🚩 Video Marketting                           
 🚩 Augmented reality                                  
 🚩 Review in form of short videos                          
-🚩 Ecommerce Marketting                           
-🚩 Become Influenecr                      
+🚩 Ecommerce Marketing                           
+🚩 Become Influencer                     
 🚩 Ads in more attractive way                 
 
 
