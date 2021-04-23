@@ -24,8 +24,19 @@ Trell is a one-stop destination for discovering daily lifestyle experiences. Ava
 #### Trell is a Lifestyle Social Commerce platform which has 2 major features like e-commerce and short video reels but still wants some blazing integrations of new innovations which are currently not being used by other competitors and will benefit Trell's market in the best of its needs which is currently a biq question at this moment , on basis of which it can become the  one stop destination for the customers
 <br>
 
+<p align="center">
+    <img src="https://github.com/Jassi10000/Trell-Project/blob/main/Project-Giphy/1619208050466.gif" width="550" height="300"/>
+</p>  
 
 Our Project Presentation can be viewed at <a href="https://www.canva.com/design/DAEcguWFnZE/share/preview?token=A553IkeOWuKz_jugMIb2XA&role=EDITOR&utm_content=DAEcguWFnZE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">👉 Here</a>
+
+### A perfect wireframe to understand the frontend 
+![IMG-20210424-WA0019](https://user-images.githubusercontent.com/64856348/115929589-af261600-a4a5-11eb-865c-77226c97c212.jpg)
+
+### A perfect database schema to understand thedatabase
+![databaseSchema](https://user-images.githubusercontent.com/64856348/115930666-8272fe00-a4a7-11eb-9a3b-c7045b6d6fc2.PNG)
+
+
 
 ### What do we mean by Entertainment with E-commerce?🤔
 From a long time, since product purchase has boomed up through E-Commerce sites on different platforms , tremendous growth has taken place but one thing we want to bring in light that always the focus of the customer is to purchase of the product without even trying or considering other aspects , so we came out with this innovative idea of introducing AR Effect Visualisation and Video marketing where we are integrating E-Commerce with Entertainment by enabling the customer to have some great fun time while trying the products actually on him/her using Augmented Reality Technology , this feature can help in many ways like : getting good reviews regarding the website and its products , more traffic of people everyday as it powers live testing of products for the user to be able to check compatibility of the product according to his needs , which will eventually attract customers connected via E-Commerce. 
