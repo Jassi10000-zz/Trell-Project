@@ -24,6 +24,9 @@ Trell is a one-stop destination for discovering daily lifestyle experiences. Ava
 #### Trell is a Lifestyle Social Commerce platform which has 2 major features like e-commerce and short video reels but still wants some blazing integrations of new innovations which are currently not being used by other competitors and will benefit Trell's market in the best of its needs which is currently a biq question at this moment , on basis of which it can become the  one stop destination for the customers
 <br>
 
+
+Our Project Presentation can be viewed at <a href="https://www.canva.com/design/DAEcguWFnZE/share/preview?token=A553IkeOWuKz_jugMIb2XA&role=EDITOR&utm_content=DAEcguWFnZE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">👉 Here</a>
+
 ### What do we mean by Entertainment with E-commerce?🤔
 From a long time, since product purchase has boomed up through E-Commerce sites on different platforms , tremendous growth has taken place but one thing we want to bring in light that always the focus of the customer is to purchase of the product without even trying or considering other aspects , so we came out with this innovative idea of introducing AR Effect Visualisation and Video marketing where we are integrating E-Commerce with Entertainment by enabling the customer to have some great fun time while trying the products actually on him/her using Augmented Reality Technology , this feature can help in many ways like : getting good reviews regarding the website and its products , more traffic of people everyday as it powers live testing of products for the user to be able to check compatibility of the product according to his needs , which will eventually attract customers connected via E-Commerce. 
 With that we have also introduced one more fun stuff i.e Video Marketing of people using that product live and giving their reviews and rating which will help customers to analyse if they would be comfortable with product in all aspects .
