@@ -43,12 +43,12 @@
     <link rel="stylesheet" href="assets/css/Video-Responsive.css">
 </head>
 
-<body>
+<body onload="myFunction()">
     <nav class="navbar navbar-light navbar-expand-md">
         <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/trell-icon.png" style="width: 50px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-home" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Home</a></li>
+                    <li class="nav-item"><a class="nav-link active text-center" href="index.html"><i class="fa fa-home" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Home</a></li>
                     <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-user" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Profile</a></li>
                     <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-heart" style="font-size: 20px;color: rgb(204,29,185);"></i><br>WishList</a></li>
                     <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-shopping-bag" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Bag</a></li>
@@ -79,8 +79,8 @@
     </div>
     <div class="container"></div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
+        <div class="video player row">
+            <!-- <div class="col-md-3">
                 <div style="position: relative;overflow: hidden;padding-top: 56.25%;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/MqcuotuWP2k?controls=0" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;"></iframe></div>
             </div>
             <div class="col-md-3">
@@ -91,7 +91,7 @@
             </div>
             <div class="col-md-3">
                 <div style="position: relative;overflow: hidden;padding-top: 56.25%;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hI4zn8KnMhM?controls=0" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;"></iframe></div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="container">
@@ -107,7 +107,7 @@
             <div class="col" style="height: 105px;"><img src="assets/img/Tempclipboard-image.png"></div>
         </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div style="position: relative;overflow: hidden;padding-top: 56.25%;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/MqcuotuWP2k?controls=0" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;"></iframe></div>
@@ -122,7 +122,7 @@
                 <div style="position: relative;overflow: hidden;padding-top: 56.25%;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hI4zn8KnMhM?controls=0" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;"></iframe></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <footer class="footer-basic">
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
         <ul class="list-inline">
@@ -152,6 +152,36 @@
     <script src="assets/js/Simple-Slider.js"></script>
     <script src="assets/js/Slider_Carousel_webalgustocom.js"></script>
     <script src="assets/js/Testimonial-Slider-9.js"></script>
+    <script>
+        function myFunction(){
+           var myHeaders = new Headers();
+    myHeaders.append("Cookie", "__cfduid=df0efe5c766b5f61bd580b296d771cf411619019513");
+    
+    var requestOptions = {
+      method: 'GET',
+      headers: myHeaders,
+      redirect: 'follow'
+    };
+    
+    fetch("https://sheetdb.io/api/v1/nmnk5c258v1x5?sheet=VIDEOS", requestOptions)
+      .then(response => response.text())
+      .then(result => {let data = JSON.parse(result);
+       for(let i =0 ; i<data.length;i++){
+           let html = ` <div class="col-md-3">
+                <div style="position: relative;overflow: hidden;padding-top: 56.25%;"><iframe allowfullscreen="" frameborder="0" src=${data[i]["VIDEO LINK"]} style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;"></iframe></div>
+                <div class="col-6">
+                                    <p class="product-price">Likes:${data[i]["LIKES"]} </p>
+                </div>
+                <div class="col" style="height: 105px;"><img src="assets/img/Tempclipboard-image.png"></div>
+                
+            </div>`;
+                document.querySelector(".video.player.row").innerHTML = document.querySelector(".video.player.row").innerHTML + html;
+       }
+    })
+      .catch(error => console.log('error', error));
+        }
+    
+    </script>
 </body>
 
 </html>

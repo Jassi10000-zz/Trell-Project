@@ -43,12 +43,12 @@
     <link rel="stylesheet" href="assets/css/Video-Responsive.css">
 </head>
 
-<body style="height: 735px;">
+<body style="height: 735px;" onload="myFunction">
     <nav class="navbar navbar-light navbar-expand-md">
         <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/trell-icon.png" style="width: 50px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-home" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Home</a></li>
+                    <li class="nav-item"><a class="nav-link active text-center" href="index.html"><i class="fa fa-home" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Home</a></li>
                     <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-user" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Profile</a></li>
                     <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-heart" style="font-size: 20px;color: rgb(204,29,185);"></i><br>WishList</a></li>
                     <li class="nav-item"><a class="nav-link active text-center" href="#"><i class="fa fa-shopping-bag" style="font-size: 20px;color: rgb(204,29,185);"></i><br>Bag</a></li>
@@ -102,7 +102,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src= nivea.png alt="a" />
+                                    <img src= "assets\img\nivea.png" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -132,7 +132,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src= lips.png
+                                    <img src= "assets\img\lips.png"
                                          alt="a" />
                                 </div>
                                 <div class="info">
@@ -160,7 +160,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src= found.png class="img-responsive" alt="a" />
+                                    <img src= "assets\img\found.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -190,7 +190,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src=found1.png class="img-responsive" alt="a" />
+                                    <img src= "assets\img\found1.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -227,7 +227,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src= glow.png class="img-responsive" alt="a" />
+                                    <img src= "assets\img\glow.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -257,7 +257,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src= garnier.png class="img-responsive" alt="a" />
+                                    <img src= "assets\img\garnier.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -284,7 +284,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src= nivea.png class="img-responsive" alt="a" />
+                                    <img src= "assets\img\nivea.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -314,7 +314,7 @@
                         <div class="col-sm-3">
                             <div class="col-item">
                                 <div class="photo">
-                                    <img src=glow.png class="img-responsive" alt="a" />
+                                    <img src="assets\img\glow.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="info">
                                     <div class="row">
@@ -377,6 +377,53 @@
     <script src="assets/js/Simple-Slider.js"></script>
     <script src="assets/js/Slider_Carousel_webalgustocom.js"></script>
     <script src="assets/js/Testimonial-Slider-9.js"></script>
+    <script>
+        function myFunction(){
+           var myHeaders = new Headers();
+    myHeaders.append("Cookie", "__cfduid=df0efe5c766b5f61bd580b296d771cf411619019513");
+    
+    var requestOptions = {
+      method: 'GET',
+      headers: myHeaders,
+      redirect: 'follow'
+    };
+    
+    fetch("https://sheetdb.io/api/v1/tya607i8ai5ox", requestOptions)
+      .then(response => response.text())
+      .then(result => {let data = JSON.parse(result);
+       for(let i =0 ; i<data.length;i++){
+           let html = ` <div class="col-sm-6 col-md-4 product-item animation-element slide-fade">
+                    <div class="product-container">
+                        <div class="row">
+                            <div class="col-md-12"><a class="product-image" href="#"><img src=${data[i].Image} style="width: 250px;height: 344px;"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <h2><a href="#">${data[i]["Product Name"]}</a></h2>
+                            </div>
+                            <div class="col-4"><a class="small-text" href="#">compare </a></div>
+                        </div>
+                        <div class="product-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i><a class="small-text" href="#">82 reviews</a></div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="product-description"><br>${data[i]["Description"]}<br><br></p>
+                                <div class="row">
+                                    <div class="col-6"><button class="btn btn-light" type="button">Buy Now!</button></div>
+                                    <div class="col-6">
+                                        <p class="product-price">₹599.00 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+                document.querySelector(".product-list").innerHTML = document.querySelector(".product-list").innerHTML + html;
+       }
+    })
+      .catch(error => console.log('error', error));
+        }
+    
+    </script>
 </body>
 
 </html>
