@@ -2,7 +2,36 @@
 
 We *GtbitCoders* are a team of 4 
 
-OPEN INNOVATION 
+<p>
+  <a href="https://github.com/Vipin1313">📌Vipin Kumar</a>
+  <a href="https://github.com/Jassi10000">📌Jaskeerat Singh</a>
+  <a href="https://github.com/ritika-rustagi">📌Ritika Rustagi</a>
+  <a href="https://github.com/AkhtarSaud">📌Saud Akhtar</a>
+</p>
+<br> 
 
-Trell is a Lifestyle Social Commerce platform which has 2 major features like e-commerce and short video reels but still wants some blazing integrations of new innovations which are currently not being used by other competitors and will benefit Trell's market in the best of its needs which is currently a biq question at this moment , on basis of which it can become the  one stop destination for the customers
+## 🔆 What is Trell
+Trell is a one-stop destination for discovering daily lifestyle experiences. Available in 8 Indian languages. CONSUME - Discover Millions of videos on DIY, Fashion, Beauty, Food, Recipes, Travel, Movies & TV Reviews, Personal Care and 20+ categories in your own language.
 
+
+<br>
+
+
+## Our Theme  : E-Commerce 🎁 with Entertainment 🤩
+
+### Targetting OPEN INNOVATION in our idea we are up with the following Problem Statement :                                       
+
+#### Trell is a Lifestyle Social Commerce platform which has 2 major features like e-commerce and short video reels but still wants some blazing integrations of new innovations which are currently not being used by other competitors and will benefit Trell's market in the best of its needs which is currently a biq question at this moment , on basis of which it can become the  one stop destination for the customers
+<br>
+
+### What do we mean by Entertainment with E-commerce?🤔
+From a long time, since product purchase has boomed up through E-Commerce sites on different platforms , tremendous growth has taken place but one thing we want to bring in light that always the focus of the customer is to purchase of the product without even trying or considering other aspects , so we came out with this innovative idea of introducing AR Effect Visualisation and Video marketing where we are integrating E-Commerce with Entertainment by enabling the customer to have some great fun time while trying the products actually on him/her using Augmented Reality Technology , this feature can help in many ways like : getting good reviews regarding the website and its products , more traffic of people everyday as it powers live testing of products for the user to be able to check compatibility of the product according to his needs , which will eventually attract customers connected via E-Commerce. 
+With that we have also introduced one more fun stuff i.e Video Marketing of people using that product live and giving their reviews and rating which will help customers to analyse if they would be comfortable with product in all aspects .
+<br>
+
+### Future Scope 🤖
+* AR effect can be enhanced.
+* Some perks  will be provided to the influencer who contribute in video marketing of the product in a fun way such as providing them various personalized filters which will     get unlocked with period of time.
+* Redeem coins feature will be introduced making it more interactive while shopping
+
+ 
