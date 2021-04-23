@@ -28,13 +28,29 @@ Trell is a one-stop destination for discovering daily lifestyle experiences. Ava
     <img src="https://github.com/Jassi10000/Trell-Project/blob/main/Project-Giphy/1619208050466.gif" width="550" height="300"/>
 </p>  
 
+
+### 😍Features implemented in our project
+
+🚩 Realtime experience for buyers         
+🚩 Promotion using carousel                                     
+🚩 Video Marketting                           
+🚩 Augmented reality                                  
+🚩 Review in form of short videos                          
+🚩 Ecommerce Marketting                           
+🚩 Become Influenecr                      
+🚩 Ads in more attractive way                 
+
+
 Our Project Presentation can be viewed at <a href="https://www.canva.com/design/DAEcguWFnZE/share/preview?token=A553IkeOWuKz_jugMIb2XA&role=EDITOR&utm_content=DAEcguWFnZE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">👉 Here</a>
 
-### A perfect wireframe to understand the frontend 
+### A snapshot of Wireframe ➡
 ![IMG-20210424-WA0019](https://user-images.githubusercontent.com/64856348/115929589-af261600-a4a5-11eb-865c-77226c97c212.jpg)
 
-### A perfect database schema to understand thedatabase
+### A snapshot of DataBase Schema ➡
 ![databaseSchema](https://user-images.githubusercontent.com/64856348/115930666-8272fe00-a4a7-11eb-9a3b-c7045b6d6fc2.PNG)
+
+### A snapshot of User Flow Diagram ➡
+![userFlow](https://user-images.githubusercontent.com/64856348/115933212-062ee980-a4ac-11eb-9e0f-005ba29571aa.PNG)
 
 
 
