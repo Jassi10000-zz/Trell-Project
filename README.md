@@ -52,7 +52,11 @@ Our Project Presentation can be viewed at <a href="https://www.canva.com/design/
 ### A snapshot of User Flow Diagram ➡
 ![userFlow](https://user-images.githubusercontent.com/64856348/115933212-062ee980-a4ac-11eb-9e0f-005ba29571aa.PNG)
 
+<br>
 
+The above 3 snapshots will give a very good idea of how things are actually working in out project 
+
+<br>
 
 ### What do we mean by Entertainment with E-commerce?🤔
 From a long time, since product purchase has boomed up through E-Commerce sites on different platforms , tremendous growth has taken place but one thing we want to bring in light that always the focus of the customer is to purchase of the product without even trying or considering other aspects , so we came out with this innovative idea of introducing AR Effect Visualisation and Video marketing where we are integrating E-Commerce with Entertainment by enabling the customer to have some great fun time while trying the products actually on him/her using Augmented Reality Technology , this feature can help in many ways like : getting good reviews regarding the website and its products , more traffic of people everyday as it powers live testing of products for the user to be able to check compatibility of the product according to his needs , which will eventually attract customers connected via E-Commerce. 
